@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:"Sora-bold";
+  src: url("./fonts/Sora/Sora-Bold.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"Sora-light";
+  src: url("./fonts/Sora/Sora-Light.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"Sora-medium";
+  src: url("./fonts/Sora/Sora-Medium.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @layer utilities {
+  .navBar-Link::after{
+    @apply  content-[''] bg-gradient-to-r from-[#8750f7] to-[#ffffff] h-[3px] w-[100%] left-0 -bottom-[5px] absolute 
+  }
+} */
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#8750f7] to-[#fff];
+}
