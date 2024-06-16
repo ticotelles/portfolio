@@ -12,12 +12,12 @@ import Hero from "../img/hero.png"
 export const Home = () => {
     return (
         <div className='container-home  bg-cover bg-center h-screen'>
-            <div className='hero-content grid grid-cols-2 text-white pt-40 pl-28  ' >
+            <div className='hero-content grid grid-cols-2 text-white pt-24 pl-28  ' >
 
                 <div className='content-box '>
 
 
-                    <span className='font-Sora-bold text-4xl leading-[54px] text-[#dddddd]'>Eu sou Arthur Telles</span>
+                    <span className='font-Sora-bold text-4xl leading-[54px]  text-[#dddddd]'>Eu sou Arthur Telles</span>
 
                     <h1 className='font-Sora-bold text-[65px] text-gradient w-3/4 leading-[78px] '>Desenvolvedor de Software</h1>
 
@@ -61,7 +61,7 @@ export const Home = () => {
                 </div>
 
                 <div className='box-img  pl-8'>
-                    <div className='img w-[474px] h-[509px] bg-slate-700 rounded-[30px] absolute bottom-24 transform rotate-6 transition-transform duration-300 hover:rotate-0'>
+                    <div className='img w-[437px] h-[474px] pt-3 rounded-[30px] absolute bottom-24 transform rotate-6 transition-transform duration-300 hover:rotate-0'>
                         <img src={Hero} className=' w-[474px] h-[509px] rounded-[30px] border-2 border-[#2a1454]   hover:border-[#8750f7]' alt="" />
                     </div>
 
