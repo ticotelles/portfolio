@@ -15,15 +15,15 @@ const Header = () => {
                 </div>
 
                 <div className='mt-4'>
-                    <ul className='flex gap-12'>
+                    <ul className='flex gap-12 mt-2'>
                         <li className=''>
-                            <a className='navBar-Link text-base font-Sora-medium ' href="">Work</a>
+                            <a className='navBar-Link  font-Sora-medium  relative   block after:block  after:absolute after:h-[2px] after:bg-[#8750f7] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left ' href="" >Work</a>
                         </li>
                         <li>
-                            <a className='navBar-Link text-base font-Sora-medium' href="">About</a>
+                            <a className='navBar-Link text-base font-Sora-medium  relative   block after:block  after:absolute after:h-[2px] after:bg-[#8750f7] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left   ' href="">About</a>
                         </li>
                         <li>
-                            <a className='navBar-Link text-base font-Sora-medium' href="">Contact</a>
+                            <a className='navBar-Link text-base font-Sora-medium  relative   block after:block  after:absolute after:h-[2px] after:bg-[#8750f7] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left  ' href="">Contact</a>
                         </li>
                     </ul>
                 </div>

@@ -16,6 +16,7 @@ export const Home = () => {
 
                 <div className='content-box '>
 
+                   
 
                     <span className='font-Sora-bold text-4xl leading-[54px]  text-[#dddddd]'>Eu sou Arthur Telles</span>
 
