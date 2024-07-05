@@ -10,7 +10,8 @@ export default {
         sora: ["Sora", "sans-serif"],
         "Sora-bold": ['Sora-bold', 'sans-serif'],
         "Sora-light": ['Sora-Light', 'sans-serif'],
-        "Sora-medium": ['Sora-Medium', 'sans-serif']
+        "Sora-medium": ['Sora-Medium', 'sans-serif'],
+        "Londrina": ['Londrina', 'sans-serif']
       },
       backgroundImage:{
         'bg-hero': "url('/background.png')"
