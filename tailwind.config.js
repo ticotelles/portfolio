@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily:{
         sora: ["Sora", "sans-serif"],
-        "Sora-bold": ['Sora-bold', 'sans-serif'],
+        "Sora-bold": ['Sora-Bold', 'sans-serif'],
         "Sora-light": ['Sora-Light', 'sans-serif'],
         "Sora-medium": ['Sora-Medium', 'sans-serif'],
         "Londrina": ['Londrina', 'sans-serif']
